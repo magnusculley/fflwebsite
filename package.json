@@ -2,7 +2,7 @@
   "name": "fflwebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/magnusculley/fflwebsite",
+  "homepage": "https://magnusculley.github.io/fflwebsite/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
