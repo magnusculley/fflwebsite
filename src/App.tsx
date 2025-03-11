@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { NameButton } from './NameButton';
 
 function App() {
   return (
@@ -8,6 +8,9 @@ function App() {
       <header className="App-header">
         <p className='top-text'>Meet FFL's team of highly esteemed engineers:</p>
       </header>
+      <div>
+        <NameButton></NameButton>
+      </div>
     </div>
   );
 }
