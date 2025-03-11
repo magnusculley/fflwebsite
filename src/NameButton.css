@@ -3,9 +3,9 @@
     background: none;
     border:transparent;
     color: #e2e2e2;
-    font-size: 12vh;
     cursor: pointer;
     outline: none;
+    font-size:inherit;
   }
   #magnus:hover {
     color: #8cb8db;
@@ -20,11 +20,25 @@
     display: flex;
     justify-content: center;
     margin: 20px;
+    font-size: 12vh;
   }
   
-  .result {
-    text-align: center;
-    font-size: 24px;
-    margin-top: 20px;
-  }
+  .button-container::before {
+    content: "[";
+    color: #e2e2e2;
+    font-size: inherit; 
+    transform: translateY(-2vh);
+}
   
+  .button-container::after {
+    content: "]";
+    color: #e2e2e2;
+    font-size: inherit;
+    transform: translateY(-2vh);
+}
+
+.name-button:not(:last-child)::after {
+    content:",";
+    color: #e2e2e2;
+    font-size:inherit;
+  }

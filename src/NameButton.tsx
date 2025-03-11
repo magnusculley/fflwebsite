@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {Button} from "react-bootstrap";
 import './NameButton.css';
+import { MagnusPortfolio } from "./MagnusPortfolio";
 
 export function NameButton(): React.JSX.Element{
     const [selected,setSelected]=useState<string>("");
@@ -10,6 +11,16 @@ export function NameButton(): React.JSX.Element{
         } else{
             setSelected(name);
         }
+    }
+    let portfolio;
+    if (selected==="magnus"){
+        portfolio=<MagnusPortfolio/>;
+    } else if (selected==="ben"){
+        portfolio="B";
+    } else if (selected==="alex"){
+        portfolio="A";
+    } else{
+        portfolio=null
     }
     return(
         <div>
@@ -22,8 +33,9 @@ export function NameButton(): React.JSX.Element{
                     Alex</Button>
             </div>
             <div>
-                You Selected {selected}
+                {portfolio}
             </div>
+            
         </div>
     )
 }
