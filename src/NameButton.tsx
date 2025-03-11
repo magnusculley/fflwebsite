@@ -20,7 +20,7 @@ export function NameButton(): React.JSX.Element{
     } else if (selected==="alex"){
         portfolio="A";
     } else{
-        portfolio=null
+        portfolio="";
     }
     return(
         <div>
