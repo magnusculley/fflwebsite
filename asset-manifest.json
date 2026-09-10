@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fflwebsite/static/css/main.7e918065.css",
-    "main.js": "/fflwebsite/static/js/main.8d6a2514.js",
+    "main.css": "/fflwebsite/static/css/main.5a73b620.css",
+    "main.js": "/fflwebsite/static/js/main.85a8aec0.js",
     "static/js/453.96bb5651.chunk.js": "/fflwebsite/static/js/453.96bb5651.chunk.js",
     "index.html": "/fflwebsite/index.html",
-    "main.7e918065.css.map": "/fflwebsite/static/css/main.7e918065.css.map",
-    "main.8d6a2514.js.map": "/fflwebsite/static/js/main.8d6a2514.js.map",
+    "main.5a73b620.css.map": "/fflwebsite/static/css/main.5a73b620.css.map",
+    "main.85a8aec0.js.map": "/fflwebsite/static/js/main.85a8aec0.js.map",
     "453.96bb5651.chunk.js.map": "/fflwebsite/static/js/453.96bb5651.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e918065.css",
-    "static/js/main.8d6a2514.js"
+    "static/css/main.5a73b620.css",
+    "static/js/main.85a8aec0.js"
   ]
 }
