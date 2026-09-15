@@ -41,7 +41,7 @@ export function MagnusPortfolio():React.JSX.Element{
                     Random Video:
                 </h1>
                 <p className='desc'>
-                    This was a demo video I had to make as part of the interview process for a job I didnt get evil evil evil
+                    This was a demo video I had to make as part of an interview process.
                 </p>
             </div>
             </div>
